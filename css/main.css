@@ -1091,6 +1091,14 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  *
  * ------------------------------------------------------------------- 
  */
+.top-bar{
+	border: #22211a8f solid 3px;
+	border-radius: 30%
+}
+
+
+
+
 header {
 	position: fixed;
 	width: 100%;
@@ -1392,7 +1400,7 @@ header .logo a {
 	letter-spacing: .25rem;
 }
 .intro-content .button:hover, .intro-content .button:focus {
-	border-color: #cc005f;
+	border-color: #a79e22;
 }
 .intro-content .button::after {
 	display: inline-block;
