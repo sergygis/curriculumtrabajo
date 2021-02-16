@@ -1461,6 +1461,8 @@ header .logo a {
     width: 40px;
     /* height: 40px; */
     padding-top: 8px;
+	transition: all 1s;
+      -webkit-transition: all 1s
 	
 
 }
@@ -2443,7 +2445,10 @@ header .logo a {
 	color: #fa0003;
 }
 .intro-social img:hover{
-	transform: scale(1.2);
+	transform:rotate(360deg) scale(1.2,1.2);
+        -webkit-transform:rotate(360deg) scale(1.2,1.2);
+        -o-transform:rotate(360deg) scale(1.2,1.2);
+	
 }
 #message-success {
 	color: #FF0077;
