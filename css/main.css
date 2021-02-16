@@ -1426,10 +1426,15 @@ header .logo a {
     padding: 0;
     background-color: rgba(14, 12, 12, 0.801);
     border-style: groove;
-    border-color: rgb(192, 167, 28);
+    border-color: rgba(59, 58, 53, 0.767);
     border-radius: 100px;
     height: 60px;
+	transition: 0.70s;
 	
+}
+
+.intro-social:hover{
+	border-color: rgba(255, 212, 71, 0.753);
 }
 .intro-social li {
 	display: inline-block;
@@ -2429,8 +2434,16 @@ header .logo a {
 	margin-bottom: 3.6rem;
 	width: 100%;
 }
+
+#maptitle{
+	font-family: 'Frijole';font-size: 30px
+
+}
 #message-warning {
 	color: #fa0003;
+}
+.intro-social img:hover{
+	transform: scale(1.2);
 }
 #message-success {
 	color: #FF0077;
@@ -2461,6 +2474,7 @@ header .logo a {
 .oldie #submit-loader .text-loader {
 	display: block;
 }
+
 .contact-info {
 	margin: 4.8rem auto 0;
 	font-family: "poppins-regular", sans-serif;
@@ -2657,5 +2671,8 @@ footer .copyright span:last-child::after {
 	
 
 }
+
+.cajonImagenes img:hover{
+	transform: scale(1.2);
 
 /*# sourceMappingURL=main.css.map */
