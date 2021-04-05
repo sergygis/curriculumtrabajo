@@ -115,7 +115,7 @@ h5, .h05, h6, .h06 {
 	margin-bottom: 1.2rem;
 }
 h1, .h01 {
-	font-size: 3.1rem;
+	font-size: 2.1rem;
 	line-height: 1.355;
 	letter-spacing: -.1rem;
 }
@@ -1028,10 +1028,10 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  * ------------------------------------------------------------------- 
  */
 .grey-section {
-	background: #c3c887e8;
+	background: #0f0f0fe8;
 }
 .grey-section p.lead {
-	color: #7d7d7d;
+	color: #ece8e8;
 }
 .section-intro {
 	max-width: 700px;
@@ -1041,10 +1041,11 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	margin-bottom: 3.6rem;
 	position: relative;
 }
+
 .section-intro h1 {
 	font-family: "poppins-semibold", serif;
-	font-size: 3.6rem;
-	color: #313131;
+	font-size: 2.6rem;
+	color: #e2dbdb;
 	line-height: 1.25;
 	margin-bottom: 1.2rem;
 }
@@ -1092,12 +1093,43 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  * ------------------------------------------------------------------- 
  */
 .top-bar{
-	border: #22211a8f solid 3px;
-	border-radius: 30%
+	
+	border: #786c17 solid 2px;
+	left: 20px;
 }
 
+.top-bar h1{
+
+	color: #c5ad24;
+}
+
+#insight{
+	
+    width: auto;
+    height: auto;
+    display: flex;
+	align-items: center;
+	margin-left: 1%;
+
+}
+
+.iframe .src{
+
+	margin-left: 5%;
+}
+
+#situ{
+	text-align: center;
+    padding-left: 13rem;
+	box-sizing: inherit;
+	margin: 92px;
+	line-height: 3rem;
+	font-family: "lora-regular", serif;
+    font-size: 2rem;
+    color: #888888;
 
 
+}
 
 header {
 	position: fixed;
@@ -1116,7 +1148,7 @@ header .top-bar {
 	min-height: 66px;
 	position: absolute;
 	left: 90px;
-	top: 0;
+	top: 2%;
 }
 header .logo {
 	float: left;
@@ -1309,6 +1341,8 @@ header .logo a {
  *
  * ------------------------------------------------------------------- 
  */
+
+ 
 #intro {
 	background: #151515 url(../images/intro-bg.jpg) no-repeat center bottom;
 	-webkit-background-size: cover;
@@ -1343,10 +1377,10 @@ header .logo a {
 .intro-content h1 {
 	color: #FFFFFF;
 	font-family: "poppins-medium", sans-serif;
-	font-size: 8.4rem;
+	font-size: 6.4rem;
 	line-height: 1.071;
 	max-width: 900px;
-	margin-top: 0;
+	margin-top: 10%;
 	margin-bottom: .6rem;
 	margin-left: auto;
 	margin-right: auto;
@@ -1371,8 +1405,15 @@ header .logo a {
 	color: #FFFFFF;
 	text-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
 }
-.intro-content .intro-position span {
+
+
+.intro-content .intro-position span a{
 	display: inline-block;
+	transition: 0.5s ease-in-out;
+}
+
+.intro-content .intro-position span a:hover {
+	color: #cfc20b;
 }
 .intro-content .intro-position span::after {
 	content: "|";
@@ -1442,6 +1483,10 @@ header .logo a {
 	margin: 0 20px;
 	padding: 0;
 	
+}
+
+.intro-position span a{
+	color: #ffffff;
 }
 
 .intro-social li a {
@@ -2673,6 +2718,8 @@ footer .copyright span:last-child::after {
 	height: 70px;
 	margin-left: 15px;
 	margin-right: 15px;
+	border-radius: 100%;
+	transition: 0.5s ease-in-out;
 	
 
 }
@@ -2680,4 +2727,4 @@ footer .copyright span:last-child::after {
 .cajonImagenes img:hover{
 	transform: scale(1.2);
 
-/*# sourceMappingURL=main.css.map */
+}
