@@ -157,6 +157,7 @@ p.lead {
 	font-size: 2rem;
 	line-height: 1.8;
 	color: #888888;
+	margin-bottom: 1%;
 }
 @media only screen and (max-width:768px) {
 	p.lead {
@@ -1045,7 +1046,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .section-intro h1 {
 	font-family: "poppins-semibold", serif;
 	font-size: 2.6rem;
-	color: #e2dbdb;
+	color: #5f5f5f;
 	line-height: 1.25;
 	margin-bottom: 1.2rem;
 }
@@ -1103,15 +1104,41 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	color: #c5ad24;
 }
 
-#insight{
+.insight{
 	
     width: auto;
     height: auto;
     display: flex;
 	align-items: center;
-	margin-left: 5%;
+	margin-left: 10%;
 
 }
+
+#downarrow{
+
+		width: 100px;
+		height: 60px;
+}
+	
+	
+#downarrow img {
+
+		width: 100%;
+		height: auto;
+		margin-left: 280%;
+		
+		border-radius: 100px;
+		transition: all 1s ease-in-out;
+  
+}
+
+#downarrow img:hover{
+  
+	transform: scale(1.5)
+  
+}
+
+
 
 .iframe .src{
 
@@ -1147,8 +1174,10 @@ header .top-bar {
 	min-width: 220px;
 	min-height: 66px;
 	position: absolute;
-	left: 90px;
-	top: 2%;
+	/* left: 4px; */
+	top: 15%;
+	border-radius: 50px;
+	transform: scale(0.7);
 }
 header .logo {
 	float: left;
@@ -1585,7 +1614,7 @@ header .logo a {
 #about {
 	background: #FFFFFF;
 	padding-top: 12rem;
-	padding-bottom: 15rem;
+	padding-bottom: 5rem;
 }
 #about .section-intro {
 	margin-bottom: 3rem;
@@ -1593,19 +1622,19 @@ header .logo a {
 
 .intro-info {
 	margin-top: 4.2rem;
-	margin-right: -30px;
-	margin-left: -30px;
+	margin-right: 50px;
+	margin-left: 20px;
 }
 .intro-info img {
 	height: 9rem;
 	width: 9rem;
-	border-radius: 50%;
+	
 	margin: .9rem 0 0 0;
 	float: left;
 }
 .intro-info .lead {
-	text-align: left;
-	padding-left: 13rem;
+	text-align: justify;
+	padding-left: 5rem;
 }
 
 .about-content {
@@ -1889,17 +1918,17 @@ header .logo a {
  *
  * ------------------------------------------------------------------- 
  */
-#portfolio {
+#dashboard {
 	background: #FFFFFF;
 	padding-top: 12rem;
 	padding-bottom: 12rem;
 }
-#portfolio .folio-item {
+#dashboard .folio-item {
 	padding: 0;
 	position: relative;
 	overflow: hidden;
 }
-#portfolio .folio-item img {
+#dashboard .folio-item img {
 	vertical-align: middle;
 	-moz-transition: all 0.5s ease-in-out;
 	-o-transition: all 0.5s ease-in-out;
@@ -1908,7 +1937,7 @@ header .logo a {
 	transition: all 0.5s ease-in-out;
 }
 
-#portfolio .overlay {
+#dashboard .overlay {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -1922,12 +1951,12 @@ header .logo a {
 	transition: all 0.5s ease-in-out;
 }
 
-#portfolio .folio-item-table {
+#dashboard .folio-item-table {
 	display: table;
 	width: 100%;
 	height: 100%;
 }
-#portfolio .folio-item-cell {
+#dashboard .folio-item-cell {
 	display: table-cell;
 	vertical-align: middle;
 	text-align: center;
@@ -1940,13 +1969,13 @@ header .logo a {
 	left: -100%;
 }
 
-#portfolio .folio-title {
+#dashboard .folio-title {
 	color: #FFFFFF;
 	font-size: 3.3rem;
 	padding: 0 3rem;
 	margin-bottom: 0;
 }
-#portfolio .folio-types {
+#dashboard .folio-types {
 	margin: 0;
 	padding: 0;
 	text-transform: uppercase;
@@ -1955,13 +1984,13 @@ header .logo a {
 	letter-spacing: .1rem;
 	color: rgba(255, 255, 255, 0.6);
 }
-#portfolio .folio-item:hover .overlay {
+#dashboard .folio-item:hover .overlay {
 	background: rgba(0, 0, 0, 0.8);
 }
-#portfolio .folio-item:hover .folio-item-cell {
+#dashboard .folio-item:hover .folio-item-cell {
 	left: 0;
 }
-#portfolio .folio-item:hover img {
+#dashboard .folio-item:hover img {
 	-webkit-transform: scale(1.05);
 	-ms-transform: scale(1.05);
 	transform: scale(1.05);
@@ -1973,17 +2002,17 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 @media only screen and (max-width:1024px) {
-	#portfolio .folio-title {
+	#dashboard .folio-title {
 		font-size: 3.1rem;
 	}
 }
 @media only screen and (max-width:768px) {
-	#portfolio .folio-title {
+	#dashboard .folio-title {
 		font-size: 2.5rem;
 	}
 }
 @media only screen and (max-width:400px) {
-	#portfolio .folio-title {
+	#dashboard .folio-title {
 		font-size: 2.2rem;
 	}
 }
@@ -2352,7 +2381,7 @@ header .logo a {
 #contact {
 	background: #151515;
 	padding-top: 12rem;
-	padding-bottom: 7.2rem;
+	padding-bottom: 2rem;
 }
 #contact .section-intro h1 {
 	color: white;
@@ -2608,7 +2637,7 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 footer {
-	padding-bottom: 3rem;
+	padding-bottom: 0.2rem;
 	font-size: 1.4rem;
 	font-family: "poppins-regular", sans-serif;
 }
@@ -2666,7 +2695,7 @@ footer .copyright span:last-child::after {
 		display: block;
 		width: 100%;
 		text-align: center;
-		margin-bottom: 1.5rem;
+		/* margin-bottom: 1.5rem; */
 	}
 	footer .copyright span {
 		display: block;
@@ -2719,12 +2748,91 @@ footer .copyright span:last-child::after {
 	margin-left: 15px;
 	margin-right: 15px;
 	border-radius: 100%;
-	transition: 0.5s ease-in-out;
-	
-
+	transition: 0.5s ease-in-out;	
 }
+
+.cajonarrow{
+	
+    width: auto;
+    height: 110%;
+	margin:5%;
+	padding: 5%;
+}
+
+.cajonarrow img{
+
+	display: inline-table;
+	transition: 1s;
+}
+
+.cajonarrow img:hover{
+	transform: scale(1.2);
+}
+
+
 
 .cajonImagenes img:hover{
 	transform: scale(1.2);
+
+}
+
+.arrow{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+	transition: all ease-in-out 1s;
+	
+}
+.arrow span{
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-bottom: 5px solid #ffda06;
+    border-right: 5px solid #928510;
+    transform: rotate(45deg);
+    margin: -10px;
+    animation: animate 2s infinite;
+	
+}
+
+
+
+.arrow span:nth-child(2){
+    animation-delay: -0.2s;
+}
+.arrow span:nth-child(3){
+    animation-delay: -0.4s;
+}
+@keyframes animate {
+    0%{
+        opacity: 0;
+        transform: rotate(45deg) translate(-20px,-20px);
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        transform: rotate(45deg) translate(20px,20px);
+    }
+}
+
+.footer-social img{
+
+	
+	background-color: white;
+	border-radius: 100px;
+	width: 25%;
+	margin-left: 125%;
+	margin-top: 10%;
+	border: 4px black solid;
+	transition: 0.5s all ease-out;
+	
+}
+
+.footer-social img:hover{
+
+	transform: scale(1.1);
 
 }
