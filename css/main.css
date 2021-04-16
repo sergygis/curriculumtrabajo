@@ -1035,7 +1035,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	color: #ece8e8;
 }
 .section-intro {
-	max-width: 700px;
+	/* max-width: 900px; */
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
@@ -1110,7 +1110,30 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     height: auto;
     display: flex;
 	align-items: center;
-	margin-left: 10%;
+	padding-left: 10%;
+	
+}
+
+.dashboard{
+
+	width: auto;
+    height: auto;
+    display: flex;
+	align-items: center;
+	padding-left: 1%;
+	
+
+
+}
+
+.survey{
+
+	/* width: auto;
+    height: auto;
+    display: flex;
+	align-items: center;
+	padding-left: 10%; */
+
 
 }
 
@@ -1298,27 +1321,31 @@ header .logo a {
 	display: block;
 	width: 100%;
 	font-family: "poppins-medium", sans-serif;
-	font-size: 1.5rem;
+	
 	position: absolute;
 	top: 100%;
 	left: 0;
+	
 }
 
 /* dropdown nav */
 .main-navigation {
 	background: #000000;
-	padding: 24px 30px 42px;
+	padding: 24px 20px 42px;
 	margin: 0;
 	width: 100%;
 	height: auto;
 	clear: both;
 	display: none;
+	border: 0.5px solid rgb(185, 185, 17)
 }
 .main-navigation > li {
 	display: block;
 	height: auto;
-	text-align: left;
+	text-align: center;
 	padding: 0;
+	
+	
 }
 .main-navigation li a {
 	display: block;
@@ -1327,10 +1354,15 @@ header .logo a {
 	padding: 15px 0;
 	line-height: 16px;
 	border: none;
+	transition: 0.5s ease-in-out;
 }
 .main-navigation li a:hover {
 	color: #c5c333;
 	padding-left: 1rem;
+	
+	border: solid 1px yellow;
+	border-radius: 15px;
+	
 }
 .main-navigation li.current > a {
 	background: none;
@@ -3101,7 +3133,7 @@ footer .copyright span:last-child::after {
 	
     width: auto;
     height: 110%;
-	margin:5%;
+	margin:2%;
 	padding: 5%;
 }
 
@@ -3170,7 +3202,7 @@ footer .copyright span:last-child::after {
 	background-color: white;
 	border-radius: 100px;
 	width: 25%;
-	margin-left: 125%;
+	margin-left: 100%;
 	margin-top: 10%;
 	border: 4px black solid;
 	transition: 0.5s all ease-out;
