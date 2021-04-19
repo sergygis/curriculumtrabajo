@@ -1114,6 +1114,16 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	
 }
 
+.insight2{
+	
+    width: auto;
+    height: auto;
+    display: flex;
+	align-items: center;
+	padding-left: 1%;
+	
+}
+
 .dashboard{
 
 	width: auto;
