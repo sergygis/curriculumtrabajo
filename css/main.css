@@ -1110,7 +1110,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     height: auto;
     display: flex;
 	align-items: center;
-	padding-left: 10%;
+	padding-left: 15%;
 	
 }
 
