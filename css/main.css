@@ -1136,6 +1136,17 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 }
 
+.wab{
+
+		width: auto;
+		height: auto;
+		display: flex;
+		align-items: center;
+		padding-left: 5%;
+
+	
+}
+
 .survey{
 
 	/* width: auto;
@@ -1176,6 +1187,19 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .iframe .src{
 
 	margin-left: 5%;
+}
+
+
+
+
+
+.jimu-main-background {
+
+	background-color: rgb(173, 173, 44);
+
+
+
+
 }
 
 #situ{
