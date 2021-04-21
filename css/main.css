@@ -156,8 +156,21 @@ p.lead {
 	font-family: "Quicksand", serif;
 	font-size: 2rem;
 	line-height: 1.8;
-	color: #888888;
+	color: #cfcccc;
 	margin-bottom: 1%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+p.lead1{
+
+	font-family: "Quicksand", serif;
+	font-size: 2rem;
+	line-height: 1.8;
+	color: #bcbcbc;
+	margin-bottom: 1%;
+
+
 }
 @media only screen and (max-width:768px) {
 	p.lead {
