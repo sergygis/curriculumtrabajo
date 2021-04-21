@@ -1162,6 +1162,19 @@ button::-moz-focus-inner, input::-moz-focus-inner {
         border-color: rgb(100, 93, 31);
 		box-shadow: rgb(105 101 52 / 86%) 0px 0px 16px 10px;
 }
+
+.video iframe{
+
+	width: 1070px;
+    height: 550px;
+    display: flex;
+	align-items: center;
+	padding-left: 1%;
+	margin-left: 2%;
+	border: none;
+
+
+}
 		
 
 .survey{
