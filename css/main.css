@@ -1153,12 +1153,17 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 		width: auto;
 		height: auto;
-		display: flex;
+		display: inline-flex;
 		align-items: center;
-		padding-left: 5%;
-
-	
+		padding: 0.2em ;
+		border: 10px rgb(130 126 30);
+		border-style:groove;
+		border-radius: 5px;
+        
+        border-color: rgb(100, 93, 31);
+		box-shadow: rgb(105 101 52 / 86%) 0px 0px 16px 10px;
 }
+		
 
 .survey{
 
